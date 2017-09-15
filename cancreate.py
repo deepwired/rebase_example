@@ -1,5 +1,5 @@
 __author__ = 'deepsinghbaweja'
-
+#specific to feature
 def check_if_word_is_formed(others, inputLen, nextStart):
     """ This function is recursive and eventually returns True or False depending on whether the word is formed or not
 

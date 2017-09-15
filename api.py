@@ -4,7 +4,7 @@ import mysql.connector
 
 cnx = mysql.connector.connect(user='scott', database='employees')
 cursor = cnx.cursor()
-
+# specific to feature
 query = ("SELECT first_name, last_name, hire_date FROM employees "
          "WHERE hire_date BETWEEN %s AND %s")
 
